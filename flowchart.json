@@ -1,8 +1,8 @@
 {
   "q1": {
-    "question": "Wat vind je belangrijk in leren?",
+    "question": "Wat vind u het belangrijkst voor uw kind in het onderwijs?",
     "answers": {
-      "A": { "text": "Overzicht en een duidelijke route", "next": "q2" },
+      "A": { "text": "Overzicht en een duidelijke voorspelbaar leertraject", "next": "q2" },
       "B": { "text": "Ruimte en nieuwsgierigheid", "next": "q3" }
     }
   },
@@ -51,7 +51,7 @@
   "q8": {
     "question": "Wilt u graag dat uw kind leert met lessen, of met exploratieve doelen en vraagstellingen?",
     "answers": {
-      "A": { "text": "Lessen heb ik liever, daar ben ik bekend mee. Dan heb ik zekerheid dat mijn kind alle basiskennis bezit.", "popup": "Misverstand! Bij Agora wordt ieder kind begeleid om dezelfde basiskennis te leren die je ook in het reguliere onderwijs leert.", "next": "Q11" },
+      "A": { "text": "Lessen heb ik liever, daar ben ik bekend mee. Dan heb ik zekerheid dat mijn kind alle basiskennis bezit.", "popup": "Misverstand! Bij Agora wordt ieder kind begeleid om dezelfde basiskennis te leren die je ook in het reguliere onderwijs leert.", "next": "q11" },
       "B": { "text": "Exploratief leren klinkt interessant, ik wil graag weten hoe dat werkt", "popup": "Op Agora worden kinderen 1 op 1 gecoacht. Samen zetten ze challenges op, gebaseerd op de interesse en passie van het kind. De coach is speciaal opgeleid om het kind zo te sturen, dat hij alle basiskennis raakt voor de SLO kerndoelen van het onderwijs.", "next": "q12" }
     }
 }, 
