@@ -91,13 +91,14 @@ h2 {
     cursor: pointer;
     font-size: 18px;
     transition: background-color 0.2s, transform 0.15s;
+    color: #222;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .answer-btn:hover {
     background-color: #e9ecef;
 }
 
-.answer-btn:active,
 .answer-btn.pressed {
     transform: scale(0.96);
     background-color: #d6e0ea;
