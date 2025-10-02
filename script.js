@@ -36,7 +36,14 @@ function displayQuestion(questionId) {
         const button = document.createElement('button');
         button.className = 'answer-btn';
         button.textContent = answer.text;
-        
+
+        // Add mobile-friendly pressed effect
+        button.addEventListener('touchstart', () => button.classList.add('pressed'));
+        button.addEventListener('mousedown', () => button.classList.add('pressed'));
+        ['touchend', 'touchcancel', 'mouseup', 'mouseleave', 'click'].forEach(evt => {
+            button.addEventListener(evt, () => button.classList.remove('pressed'));
+        });
+
         button.addEventListener('click', () => {
             if (answer.popup) {
                 showPopup(answer.popup, answer.next);
@@ -44,7 +51,6 @@ function displayQuestion(questionId) {
                 handleNavigation(answer.next);
             }
         });
-
         answersContainer.appendChild(button);
     });
 }
