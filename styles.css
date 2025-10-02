@@ -18,6 +18,10 @@ body {
     color: white;
 }
 
+button {
+ color: #222;
+}
+
 .container {
     padding: 20px;
     max-width: 800px;
@@ -95,9 +99,9 @@ h2 {
     -webkit-tap-highlight-color: transparent;
 }
 
-.answer-btn:hover {
+/* .answer-btn:hover {
     background-color: #e9ecef;
-}
+} */
 
 .answer-btn.pressed {
     transform: scale(0.96);
