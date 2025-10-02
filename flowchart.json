@@ -1,0 +1,86 @@
+{
+  "q1": {
+    "question": "Wat vind je belangrijk in leren?",
+    "answers": {
+      "A": { "text": "Overzicht en een duidelijke route", "next": "q2" },
+      "B": { "text": "Ruimte en nieuwsgierigheid", "next": "q3" }
+    }
+  },
+  "q2": {
+    "question": "Ziet u schoolcijfers als een belangrijke manier om te weten hoe uw kind zich ontwikkelt?",
+    "answers": {
+      "A": { "text": "Ja, cijfers geven voor mij duidelijkheid en zekerheid.", "popup": "Cijfers zijn momentopnames. Ze meten vaak niet inzet, creativiteit of groei.", "next": "q4" },
+      "B": { "text": "Nee, ik vind meer belangrijk dan alleen cijfers.", "next": "q5" }
+    }
+  },
+  "q3": {
+    "question": "Ziet u schoolcijfers als de belangrijkste manier om te weten hoe uw kind zich ontwikkelt?",
+    "answers": {
+      "A": { "text": "Ja, cijfers geven voor mij duidelijkheid en zekerheid.", "popup": "Cijfers zijn momentopnames. Ze meten vaak niet inzet, creativiteit of groei.", "next": "q4" },
+      "B": { "text": "Nee, ik vind meer belangrijk dan alleen cijfers", "next": "q5" }
+    }
+}, 
+  "q4": {
+    "question": "Bent u tevreden als uw kind alleen leert wat gevraagd wordt voor toetsen en examens?",
+    "answers": {
+      "A": { "text": "Ja, dit is als het goed is alles wat hij/zij moet weten", "next": "q6" },
+      "B": { "text": "Nee, ik heb liever dat hij/zij meer leert ontdekken en nieuwsgierigheid waarborgt.", "next": "q7" }
+    }
+}, 
+  "q5": {
+    "question": "Er zijn middelbare scholen in Nederland die zonder cijfers werken, wat weet u van deze scholen?",
+    "answers": {
+      "A": { "text": "Dat dit scholen zijn die werken op basis van feedback in plaats van cijfers, en dat kinderen zelfstandig moeten werken", "next": "q9" },
+      "B": { "text": "Dat dit MBO scholen zijn voor kinderen die niet passen in het reguliere onderwijs.", "popup": "Misverstand! Agora is voor iedereen, kinderen stromen erna door naar MBO, HBO of Universiteit. Elke school onder het bekostigd onderwijs is namelijk verplicht eindexamen doen.", "next": "q8" }
+    }
+}, 
+  "q6": {
+    "question": "Wilt u graag dat uw kind op school wordt ondersteund om te ontdekken wat hij of zij later wil 'worden'?",
+    "answers": {
+      "A": { "text": "Nee, dat doen we liever vanaf thuis", "next": "q10" },
+      "B": { "text": "Ja, ik wil graag dat mijn kind leert ontdekken waar hij/zij gelukkig van wordt.", "next": "q7" }
+    }
+}, 
+  "q7": {
+    "question": "Er zijn in Nederland middelbare scholen die leerlingen volledig ondersteunen in het ontdekken van hun eigen talenten en passies, zonder vast lesrooster en zonder de klassieke indeling in vakken. Wat weet u van deze scholen?",
+    "answers": {
+      "A": { "text": "Dat dit MBO scholen zijn voor kinderen die niet passen in het reguliere onderwijs.", "popup": "Misverstand! In Nederland gebruiken de meeste scholen buiten het reguliere onderwijs 'Agora'. En Agora, is voor iedereen, je kan erna door naar MBO, HBO of Universiteit. Elke school onder het bekostigd onderwijs is namelijk verplicht eindexamen doen, waarna je wordt geplaatst op een van de niveaus.", "next": "q8" },
+      "B": { "text": "Dat dit scholen zijn die werken op basis van feedback in plaats van cijfers, en dat kinderen zelfstandig moeten werken", "next": "q9" }
+    }
+}, 
+  "q8": {
+    "question": "Wilt u graag dat uw kind leert met lessen, of met exploratieve doelen en vraagstellingen?",
+    "answers": {
+      "A": { "text": "Lessen heb ik liever, daar ben ik bekend mee. Dan heb ik zekerheid dat mijn kind alle basiskennis bezit.", "popup": "Misverstand! Bij Agora wordt ieder kind begeleid om dezelfde basiskennis te leren die je ook in het reguliere onderwijs leert.", "next": "Q11" },
+      "B": { "text": "Exploratief leren klinkt interessant, ik wil graag weten hoe dat werkt", "popup": "Op Agora worden kinderen 1 op 1 gecoacht. Samen zetten ze challenges op, gebaseerd op de interesse en passie van het kind. De coach is speciaal opgeleid om het kind zo te sturen, dat hij alle basiskennis raakt voor de SLO kerndoelen van het onderwijs.", "next": "q12" }
+    }
+}, 
+  "q9": {
+    "question": "De meest bekende 'cijferloze' onderwijsmethode heet Agora. Denkt u dat uw kind volledig zelfstandig moet kunnen leren om te passen op een Agora-school?",
+    "answers": {
+      "A": { "text": "Nee, ik weet hoe ze het bij Agora scholen aanpakken.", "next": "q4" },
+      "B": { "text": "Ja, dat lijkt me wel.", "popup": "Misverstand! Bij Agora krijgt ieder kind een persoonlijke coach die helpt structuur en richting te geven, zodat de leerling alle benodigde stof leert om de middelbare school succesvol af te ronden.", "next": "q3" }
+    }
+}, 
+  "q10": {
+    "question": "Bent u tevreden met uw kind op het regulier onderwijs, of wilt u graag meer weten over alternatieven?",
+    "answers": {
+      "A": { "text": "Regulier onderwijs is helemaal goed voor mijn kind", "next": "e1" },
+      "B": { "text": "Ik wil graag alle opties bekeken hebben", "next": "q5" }
+    }
+}, 
+  "q11": {
+    "question": "Bent u tevreden met uw kind op het regulier onderwijs, of wilt u graag meer weten over alternatieven?",
+    "answers": {
+      "A": { "text": "Regulier onderwijs is helemaal goed voor mijn kind", "next": "e1" },
+      "B": { "text": "Ik wil graag meer weten over alternatieven", "next": "e2" }
+    }
+}, 
+  "q12": {
+    "question": "Wilt u meer weten over Agora?",
+    "answers": {
+      "A": { "text": "Nee, ik heb liever dat mijn kind naar het reguliere onderwijs gaat", "popup": "Cijfers meten vaak geen groei of inzet.", "next": "e1" },
+      "B": { "text": "Ja graag", "next": "e2" }
+    }
+}
+}
