@@ -59,7 +59,7 @@
     "question": "De meest bekende 'cijferloze' onderwijsmethode heet Agora. Denkt u dat uw kind volledig zelfstandig moet kunnen leren om te passen op een Agora-school?",
     "answers": {
       "A": { "text": "Nee, ik weet hoe ze het bij Agora scholen aanpakken.", "next": "q4" },
-      "B": { "text": "Ja, dat lijkt me wel.", "popup": "Misverstand! Bij Agora krijgt ieder kind een persoonlijke coach die helpt structuur en richting te geven, zodat de leerling alle benodigde stof leert om de middelbare school succesvol af te ronden.", "next": "q3" }
+      "B": { "text": "Ja, dat lijkt me wel.", "popup": "Misverstand! Bij Agora krijgt ieder kind een persoonlijke coach die helpt structuur en richting te geven, zodat de leerling alle benodigde stof leert om de middelbare school succesvol af te ronden.", "next": "q8" }
     }
 }, 
   "q10": {
