@@ -31,7 +31,7 @@
     "question": "Er zijn middelbare scholen in Nederland die zonder cijfers werken, wat weet u van deze scholen?",
     "answers": {
       "A": { "text": "Dat dit scholen zijn die werken op basis van feedback in plaats van cijfers, en dat kinderen zelfstandig moeten werken", "next": "q9" },
-      "B": { "text": "Dat dit MBO scholen zijn voor kinderen die niet passen in het reguliere onderwijs.", "popup": "Misverstand! Agora is voor iedereen, kinderen stromen erna door naar MBO, HBO of Universiteit. Elke school onder het bekostigd onderwijs is namelijk verplicht eindexamen doen.", "next": "q8" }
+      "B": { "text": "Dat dit VMBO scholen zijn voor kinderen die niet passen in het reguliere onderwijs.", "popup": "Misverstand! Agora is voor iedereen, kinderen stromen erna door naar VMBO, HBO of Universiteit. Elke school onder het bekostigd onderwijs is namelijk verplicht eindexamen doen.", "next": "q8" }
     }
 }, 
   "q6": {
@@ -44,7 +44,7 @@
   "q7": {
     "question": "Er zijn in Nederland middelbare scholen die leerlingen volledig ondersteunen in het ontdekken van hun eigen talenten en passies, zonder vast lesrooster en zonder de klassieke indeling in vakken. Wat weet u van deze scholen?",
     "answers": {
-      "A": { "text": "Dat dit MBO scholen zijn voor kinderen die niet passen in het reguliere onderwijs.", "popup": "Misverstand! In Nederland gebruiken de meeste scholen buiten het reguliere onderwijs 'Agora'. En Agora, is voor iedereen, je kan erna door naar MBO, HBO of Universiteit. Elke school onder het bekostigd onderwijs is namelijk verplicht eindexamen doen, waarna je wordt geplaatst op een van de niveaus.", "next": "q8" },
+      "A": { "text": "Dat dit VMBO scholen zijn voor kinderen die niet passen in het reguliere onderwijs.", "popup": "Misverstand! In Nederland gebruiken de meeste scholen buiten het reguliere onderwijs 'Agora'. En Agora, is voor iedereen, je kan erna door naar MBO, HBO of Universiteit. Elke school onder het bekostigd onderwijs is namelijk verplicht eindexamen doen, waarna je wordt geplaatst op een van de niveaus.", "next": "q8" },
       "B": { "text": "Dat dit scholen zijn die werken op basis van feedback in plaats van cijfers, en dat kinderen zelfstandig moeten werken", "next": "q9" }
     }
 }, 
